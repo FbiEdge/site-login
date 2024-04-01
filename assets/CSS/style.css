@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+}
+
+#left {
+    flex: 1; 
+    background-color: #BE4BDD; 
+}
+
+#right {
+    flex: 1; 
+    max-width: 50%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+#login h2 {
+    color: #666666;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    margin-bottom: 1vh;
+    align-items: center;
+    text-align: center;
+    font-size: 4vh;
+}
+.links-pc{
+    text-align: center;
+    margin-bottom: 2vh;
+
+}
+
+#login p {
+    color: #949494; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1vh;
+    align-items: center;
+    text-align: center;
+    font-size: 20h;
+    margin-bottom: 3vh;
+}
+
+#login form {
+    width: auto;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+label{
+    width: 100%;
+    margin-top: 5vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+
+}
+#esqueceu {
+    display: inline-block;
+    margin-left:5vh;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+
+
+
+}
+#login {
+    width: 100%;
+    text-align: center; 
+    
+}
+
+#login h4, #login h5 {
+    width: 20%;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0px;
+    background: #BE4BDD;
+    text-indent: 8px;
+    text-align: center;
+    align-items: center;
+    margin: 5px auto; 
+    display: inline-block;
+    line-height: 40px; 
+    font-size: 2vh;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0.3vh solid rgb(255, 255, 255);
+
+    font-weight: 100;
+    margin-top: 2vh;
+
+}
+#login h5 {
+    background-color: #027CFF;
+}
+
+
+.campo-form{
+    width: 40%;
+    height: 5vh;
+    border: 0;
+    border-radius: 0; 
+    background: #F8F8F8;
+    text-indent: 5vh;
+    outline: none;
+    margin-bottom: 2vh;
+    color: #000000;
+
+    
+}
+.campo-form:focus{
+    background: #F8F8F8;
+    color: #000000;
+}
+.campo-form::placeholder{
+    color: #999;
+}
+.email-container {
+    position: relative; 
+    display: inline-block;
+}
+
+.email-pc {
+    height: auto;
+    width: 1.5%;
+    border: none;
+    background-color: #F8F8F8;
+    position: absolute;
+    margin-top: 1.2vh;
+    text-align: center;
+
+}.senha-pc {
+    height: auto;
+    width: 1.5%;
+    border: none;
+    background-color: #F8F8F8;
+    position: absolute;
+    margin-top: 1.2vh;
+    text-align: center;
+
+}
+
+
+
+#text {
+    background-color: #BE4BDD; 
+    padding-left: 24vh;    
+    padding-right: 5vh;
+    margin-top: 24vh;
+    
+ 
+    
+}
+#text h1{
+    text-align: left;
+    color: #F8F8F8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+    
+}
+#text p{
+    text-align: left;
+    font-size: 5vh;
+    color: #F8F8F8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+
+}
+#text h2{
+    text-align: left;
+  margin-top: 3%;
+  color: #F8F8F8;
+  font-size: 2.3vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 2vh;
+  font-weight: 100;
+
+  
+
+
+
+
+}
+#text h3{
+    text-align: left;
+    color: #F8F8F8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vh;
+    margin-bottom: 1vh;
+
+
+}
+#text h4{
+    height: 4vh;
+    width: 28%;
+    border: 0.3vh solid rgb(255, 255, 255);
+    border-radius: 2vh; 
+    background: #BE4BDD;
+    font-size: 2vh;
+    text-align: center;
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3vh
+    
+}
+.logo{
+    width: 20vh; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção da altura */
+
+   
+}
+
